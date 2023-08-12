@@ -64,7 +64,7 @@ if (mode !== "export") {
     const ret = [
       {
         source: "/api/proxy/:path*",
-        destination: "https://api.moeworld.top/:path*",
+        destination: "https://ai.moeworld.tech/:path*",
       },
       {
         source: "/google-fonts/:path*",

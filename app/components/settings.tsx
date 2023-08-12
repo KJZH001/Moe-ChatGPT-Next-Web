@@ -641,7 +641,7 @@ export function Settings() {
                 <input
                   type="text"
                   value={accessStore.openaiUrl}
-                  placeholder="https://api.moeworld.top/"
+                  placeholder="https://ai.moeworld.tech/"
                   onChange={(e) =>
                     accessStore.updateOpenAiUrl(e.currentTarget.value)
                   }
